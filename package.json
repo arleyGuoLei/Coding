@@ -1,0 +1,23 @@
+{
+  "name": "Coding",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "myPromise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arleyGuoLei/Coding.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arleyGuoLei/Coding/issues"
+  },
+  "homepage": "https://github.com/arleyGuoLei/Coding#readme",
+  "devDependencies": {
+    "eslint": "^6.5.1"
+  }
+}
