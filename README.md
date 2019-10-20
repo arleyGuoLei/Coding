@@ -8,4 +8,4 @@
 - new的原生实现: `MyNew.js`
 - Instanceof的原生实现: `MyInstanceof.js`
 - js原型链实现继承: `extend.js`
-
+- 快速排序: `quickSort.js`
