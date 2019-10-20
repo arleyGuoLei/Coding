@@ -101,7 +101,7 @@ module.exports = {
     'no-new-object': 2,
     'no-new-require': 2,
     'no-new-symbol': 2,
-    'no-new-wrappers': 2,
+    'no-new-wrappers': 0,
     'no-obj-calls': 2,
     'no-octal': 2,
     'no-octal-escape': 2,

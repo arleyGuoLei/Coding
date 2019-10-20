@@ -6,4 +6,5 @@
 - apply的原生实现: `MyApply.js`
 - bind的原生实现: `MyBind.js`
 - new的原生实现: `MyNew.js`
+- Instanceof的原生实现: `MyInstanceof.js`
 
