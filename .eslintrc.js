@@ -11,6 +11,7 @@ module.exports = {
   },
   extends: ['eslint:recommended'],
   rules: {
+    'no-constant-condition': 0,
     'accessor-pairs': 2,
     'arrow-spacing': [2, {
       'before': true,
