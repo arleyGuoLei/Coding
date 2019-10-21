@@ -10,3 +10,5 @@
 - js原型链实现继承: `extend.js`
 - 快速排序: `quickSort.js`
 - 堆排序: `heapSort.js`
+- 节流: `throttle.js`
+- 防抖: `debounce.js`
