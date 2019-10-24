@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>圣杯布局/双飞翼</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <style>
+      .float > .left,
+      .float > .middle,
+      .float > .right {
+        height: 200px;
+      }
+
+      .float > .left {
+        background-color: red;
+        width: 100px;
+        float: left;
+      }
+      .float > .right {
+        background-color: yellow;
+        width: 100px;
+        float: right;
+      }
+      .float > .middle {
+        background-color: green;
+        width: 100%;
+      }
+    </style>
+    <div class="float">
+      <div class="left"></div>
+      <div class="right"></div>
+      <div class="middle">我是中间人</div>
+    </div>
+
+    <style>
+      .position {
+        margin-top: 50px;
+        position: relative;
+        height: 100px;
+      }
+      .position > .left {
+        position: absolute;
+        left: 0;
+        width: 300px;
+        background-color: red;
+        height: 100px;
+      }
+      .position > .middle {
+        position: absolute;
+        left: 300px;
+        right: 300px;
+        background-color: yellow;
+        height: 100px;
+      }
+      .position > .right {
+        position: absolute;
+        right: 0;
+        width: 300px;
+        background-color: green;
+        height: 100px;
+      }
+    </style>
+    <div class="position">
+      <div class="left"></div>
+      <div class="middle">我是中间人</div>
+      <div class="right"></div>
+    </div>
+
+    <style>
+      .flex {
+        display: flex;
+        height: 100px;
+        margin-top: 50px;
+      }
+
+      .flex > .left {
+        width: 300px;
+        height: 100px;
+        background-color: red;
+      }
+
+      .flex > .right {
+        width: 300px;
+        height: 100px;
+        background-color: yellow;
+      }
+
+      .flex > .middle {
+        height: 100px;
+        flex: 1;
+        background-color: green;
+      }
+    </style>
+    <div class="flex">
+      <div class="left"></div>
+      <div class="middle">我是中间人</div>
+      <div class="right"></div>
+    </div>
+
+    <style>
+      .table {
+        display: table;
+        width: 100%;
+        margin-top: 50px;
+        height: 100px;
+      }
+
+      .table > .left {
+        display: table-cell;
+        width: 100px;
+        background-color: red;
+      }
+      .table > .right {
+        display: table-cell;
+        width: 100px;
+        background-color: yellow;
+      }
+      .table > .middle {
+        display: table-cell;
+        background-color: green;
+      }
+    </style>
+    <div class="table">
+      <div class="left"></div>
+      <div class="middle">我是中间人</div>
+      <div class="right"></div>
+    </div>
+
+    <style>
+        .grid {
+          display: grid;
+          margin-top: 50px;
+          grid-template-rows: 100px;
+          grid-template-columns: 100px auto 100px;
+        }
+  
+        .grid > .left {
+          background-color: red;
+        }
+        .grid > .right {
+          background-color: yellow;
+        }
+        .grid > .middle {
+          background-color: green;
+        }
+      </style>
+    <div class="grid">
+      <div class="left"></div>
+      <div class="middle">我是中间人</div>
+      <div class="right"></div>
+    </div>
+  </body>
+</html>
