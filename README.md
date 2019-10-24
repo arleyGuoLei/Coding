@@ -12,3 +12,4 @@
 - 堆排序: `heapSort.js`
 - 节流: `throttle.js`
 - 防抖: `debounce.js`
+- gitSubModule的使用: `gitSubModule.md`
