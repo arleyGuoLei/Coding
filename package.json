@@ -19,5 +19,8 @@
   "homepage": "https://github.com/arleyGuoLei/Coding#readme",
   "devDependencies": {
     "eslint": "^6.5.1"
+  },
+  "dependencies": {
+    "koa": "^2.11.0"
   }
 }
